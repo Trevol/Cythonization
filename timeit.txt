@@ -1,0 +1,20 @@
+from primes_c import primes_c
+from primes_cpp import primes_cpp_reserve, primes_cpp_dynamic, primes_cpp_carray
+from primes_py import primes_py
+from primes_py_cy import primes_py_cy
+from primes_my_c import primes_my_c
+
+nb_primes = 3000
+
+print('primes_py')
+%timeit primes_py(nb_primes)
+print('primes_py_cy')
+%timeit primes_py_cy(nb_primes)
+print('primes_cpp_reserve')
+%timeit primes_cpp_reserve(nb_primes)
+print('primes_cpp_dynamic')
+%timeit primes_cpp_dynamic(nb_primes)
+print('primes_cpp_carray')
+%timeit primes_cpp_carray(nb_primes)
+print('primes_my_c')
+%timeit primes_my_c(nb_primes)
