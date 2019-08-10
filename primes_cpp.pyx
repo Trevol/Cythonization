@@ -1,5 +1,5 @@
+# cython: language_level=3
 # distutils: language=c++
-
 from libcpp.vector cimport vector
 from cpython.mem cimport PyMem_Malloc, PyMem_Realloc, PyMem_Free
 

@@ -1,3 +1,5 @@
+# cython: language_level=3
+
 def primes_py_cy(nb_primes):
     p = []
     n = 2

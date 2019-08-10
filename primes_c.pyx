@@ -1,3 +1,4 @@
+# cython: language_level=3
 from cpython.mem cimport PyMem_Malloc, PyMem_Realloc, PyMem_Free
 
 def primes_c(int nb_primes):
