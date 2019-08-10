@@ -4,7 +4,7 @@ from primes_py import primes_py
 from primes_py_cy import primes_py_cy
 from primes_my_c import primes_my_c
 
-nb_primes = 1000
+nb_primes = 3000
 py_primes = primes_py(nb_primes)
 assert (primes_py_cy(nb_primes) == py_primes)
 assert (primes_c(nb_primes) == py_primes)
